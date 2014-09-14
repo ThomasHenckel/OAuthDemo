@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.30324.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoApp", "DemoApp\DemoApp.csproj", "{B53C8E9B-15C6-433E-B4A9-53F122BA7E4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ctccrm.OAuthBroker", "..\..\..\..\SkyDrive\Documents\MScommunityday\Demo\CRMAuthBroker-master\ctccrm.OAuthBroker\ctccrm.OAuthBroker.csproj", "{8EFBB644-C494-4B7D-8D89-0FAA9DF66D8C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ctccrm.OAuthBroker", "ctccrm.OAuthBroker\ctccrm.OAuthBroker.csproj", "{8EFBB644-C494-4B7D-8D89-0FAA9DF66D8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

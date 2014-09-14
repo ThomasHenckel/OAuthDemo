@@ -149,12 +149,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\SkyDrive\Documents\MScommunityday\Demo\CRMAuthBroker-master\ctccrm.OAuthBroker\ctccrm.OAuthBroker.csproj">
-      <Project>{8efbb644-c494-4b7d-8d89-0faa9df66d8c}</Project>
-      <Name>ctccrm.OAuthBroker</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Reference Include="System.Net.Http">
       <HintPath>..\packages\Microsoft.Net.Http.2.2.28\lib\sl4-windowsphone71\System.Net.Http.dll</HintPath>
     </Reference>
@@ -164,6 +158,12 @@
     <Reference Include="System.Net.Http.Primitives">
       <HintPath>..\packages\Microsoft.Net.Http.2.2.28\lib\sl4-windowsphone71\System.Net.Http.Primitives.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ctccrm.OAuthBroker\ctccrm.OAuthBroker.csproj">
+      <Project>{8efbb644-c494-4b7d-8d89-0faa9df66d8c}</Project>
+      <Name>ctccrm.OAuthBroker</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
